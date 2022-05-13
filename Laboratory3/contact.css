@@ -1,0 +1,50 @@
+body{
+    font-size: 14px;
+}
+.container, header, section, article{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+    padding: 8px;
+}
+.container{
+    margin: 20px 200px;
+    background-color: rgb(167, 255, 145);
+}
+h1{
+    text-align: center;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+main{
+    display: flex;
+}
+section{
+    flex: 30%;
+}
+h2{
+    text-align: center;
+}
+section a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+article{
+    width: 70%;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+}
+.message{
+    width: 50%;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
